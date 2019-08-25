@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap");
+body {
+  background: -webkit-gradient(linear, left top, right bottom, from(#f9ebd3), to(#fdf9f2));
+  background: linear-gradient(to bottom right, #f9ebd3 0%, #fdf9f2 100%);
+}
+
+#headline {
+  font-family: "Baloo Chettan", cursive;
+  color: #F9EBD3;
+}
+
+.height-ice-cream {
+  height: 650px;
+}
+
+.img-large img {
+  margin-left: 20%;
+  width: 55%;
+  padding-top: 10%;
+  -webkit-animation: glass 2s ease infinite;
+          animation: glass 2s ease infinite;
+}
+
+@-webkit-keyframes glass {
+  30% {
+    width: 40%;
+  }
+}
+
+@keyframes glass {
+  30% {
+    width: 40%;
+  }
+}
+
+.container {
+  font-family: "Baloo Chettan", cursive;
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, right bottom, from(#F68A91), to(#563A34));
+  background: linear-gradient(to bottom right, #F68A91, #563A34);
+}
+
+.container nav .nav-wrapper {
+  background: -webkit-gradient(linear, right top, left top, from(#f68a91), to(#f9ebd3));
+  background: linear-gradient(to left, #f68a91 0%, #f9ebd3 100%);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 80px;
+}
+
+.container nav .nav-wrapper img {
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.page-footer {
+  background: none;
+  bottom: 0;
+}
+
+.page-footer p {
+  margin-left: 40%;
+  color: #442824;
+}
+
+.btn-large {
+  background-color: #FDF9F2;
+  color: #442824;
+  font-family: "Baloo Chettan", cursive;
+  font-size: 4em;
+  width: 380px;
+  height: 200px;
+  padding: 4px;
+  border-radius: 8%;
+  position: absolute;
+  right: 450px;
+  top: 300px;
+  -webkit-box-shadow: 2px 2px 4px #442824;
+          box-shadow: 2px 2px 4px #442824;
+}
+
+.btn-large:hover {
+  background-color: #F9EBD3;
+  border: 1px solid #442824;
+}
+
+.btn-large span {
+  font-size: 0.2em;
+}
+
+ul li a {
+  font-family: "Baloo Chettan", cursive;
+  color: #442824;
+  font-size: 2em;
+}
+/*# sourceMappingURL=glass.css.map */

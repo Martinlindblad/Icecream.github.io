@@ -1,0 +1,145 @@
+body {
+  font: 42px "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: #f9ebd3;
+  color: #000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 6000px;
+  overflow-x: hidden;
+  z-index: -5;
+}
+
+
+.bg_image{
+  width: 2000px;
+  height: auto;
+}
+.ice-cream {
+  /* transform: translateX(-200px); */
+  opacity: 0;
+  transition: all 1.2s ease-out;
+  width: 200px;
+  position: fixed;
+}
+
+.ice-cream-visible {
+  opacity: 1;
+  /* transform: translateX(0); */
+}
+
+.section {
+  /* padding: 200px; */
+  /* position: inherit; */
+  z-index: -2;
+  width: 100vw;
+  height: 800px;
+}
+.section-white{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+}
+
+.stagger-visualizer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  position: fixed;
+top: 30%;
+left: 45%;
+z-index: 8;
+opacity: 1;
+ }
+ .stagger-visualizer div {
+  width: 1rem;
+  height: 0.2rem;
+ }
+
+ 
+#ice-cream-1{
+  z-index: 4;
+    top: 60%;
+  left: 42%;
+  width: 330px;
+}
+#ice-cream-2{
+    top: 45%;
+  left: 51%;
+  z-index: 5;
+}
+#ice-cream-3{
+  z-index: 6;
+  top: 45%;
+  left: 42%;
+}
+#ice-cream-4{
+  z-index: 7;
+  top: 35%;
+  left: 45%;
+}
+#ice-cream-5{
+  top: 0%;
+  left: 45%;
+  height: 300px;
+  width: 60px;
+  z-index: 4;
+}
+#ice-cream-6{
+  z-index: 4;
+  top: 10%;
+  left: 34%;
+}
+#ice-cream-7{
+  z-index: 10;
+    top: 10%;
+  left: 52%;
+  width: 150PX;
+}
+.ice-cream-button{
+  z-index: 10;
+    bottom: 10%;
+  left: 65%;
+  width: 200px;
+}
+
+
+
+.backgroundOne {
+  top: -40%;
+  left: -45%;
+  z-index: 3;
+  background-image: url("ice-cream_background_1.png");
+  background-repeat: repeat-x;
+  position: fixed;
+  width: 6000px;
+  height: 2000px;
+}
+
+.backgroundTwo {
+  background-image: url("ice-cream_background_2.png");
+  background-repeat: repeat-x;
+  position: fixed;
+  top: 0%;
+  left: -55%;
+  z-index: 2;
+  margin: auto;
+  width: 5000px;
+  height: 2000px;
+}
+
+.backgroundThree {
+  background-image: url("ice-cream_background_3.png");
+  background-repeat: repeat-x;
+  position: fixed;
+  top: 10%;
+  left: -45%;
+  z-index: 1;
+  width: 5000px;
+  height: 2000px;
+}
